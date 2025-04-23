@@ -1,0 +1,173 @@
+body{
+    line-height: 1.9;
+    word-spacing: 3px;
+    font-size: 17px;
+}
+
+section h3{
+    text-align: center;
+}
+
+main ,footer ,br {
+    background: 20;
+}
+
+#my-about{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 0px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-about .text h2{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+#my-about .text{
+    width: 60%;
+}
+
+#my-photo{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+.flex-nav-container h3{
+    display: inline; 
+    color: black;
+    width: 70%;
+    padding: 10;
+    margin: 0;
+}
+
+.flex-nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.flex-nav-item{
+    text-decoration: none;
+    padding: 10px;  
+    color: black;
+}
+
+#my-project{
+    margin-top: 150px;
+}
+
+a:hover{
+    color: black;
+}
+
+.flex-container-project{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    gap:25px 50px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.flex-item-project{
+    width: 500px;
+    height: 450px;
+}
+
+.flex-item-project img {
+    display: block;
+    margin: auto;
+}
+
+
+.flex-container-certificate{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.flex-item-certificate img{
+    width: 350px;
+}
+
+#contact{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    border-radius: 3%;
+    padding: 30px;
+    color: black;
+    display: flex;
+    box-shadow: 2px 2px 2px black ;
+}
+
+.contact-info{
+    width: 400px;
+    
+}
+
+
+.contact-form .box-name,.security-check{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.contact-form .box-name{
+    gap: 10px;
+}
+
+.contact-form .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.contact-form input{
+    padding: 5px;
+}
+
+.contact-form input,.contact-form textarea{
+  padding: 10px;
+  margin-top: 10px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.contact-form input[type='submit']{
+    background-color:black;
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+  }
+
+.contact-info p{ 
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+
