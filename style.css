@@ -14,8 +14,8 @@ main ,footer ,br {
 
 #my-about{
     margin-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
     display: flex;
     flex-wrap:wrap;
     gap: 0px 50px;
